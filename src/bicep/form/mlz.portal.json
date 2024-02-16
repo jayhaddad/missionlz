@@ -655,13 +655,13 @@
         },
         {
           "name": "compliance",
-          "label": "Compliance",
+          "label": "Security and Compliance",
           "elements": [
             {
               "name": "complianceDescriptionTextBlock",
               "type": "Microsoft.Common.TextBlock",
               "options": {
-                "text": "Mission Landing Zone comes bundled with built-in policies that can be applied to the resources it deploys and the ability to enable Microsoft Defender for Cloud for the subscriptions it is deployed into.",
+                "text": "Mission Landing Zone (MLZ) deploys Defender for Cloud, with all paid workload protection plans, for its cloud security posture management and workload protection capabilities.",
                 "link": {
                   "label": "Learn more",
                   "uri": "https://docs.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction"
@@ -670,14 +670,14 @@
             },
             {
               "name": "policySection",
-              "label": "Enable Azure Policy",
+              "label": "Assign Additional Federal Regulatory Compliance Policies",
               "type": "Microsoft.Common.Section",
               "elements": [
                 {
                   "name": "policySubsetDetailsTextBlock",
                   "type": "Microsoft.Common.TextBlock",
                   "options": {
-                    "text": "Mission Landing Zone comes bundled with a relevant subset of available Azure policies."
+                    "text": "To assist with security compliance, MLZ has the option of deploying additional regulatory compliance frameworks, for ensuring alignment with its prescriptive guidance. The compliance with a framework  can be tracked in Regulatory Compliance feature in Defender for Cloud (requires at least 1 paid workload protection plan)."
                   }
                 },
                 {
@@ -795,7 +795,7 @@
                   "name": "sentinelSectionDetailsText",
                   "type": "Microsoft.Common.TextBlock",
                   "options": {
-                    "text": "Mission Landing Zone can activate Azure Sentinel for the Log Analytics Workspace it deploys."
+                    "text": "MLZ can deploy Microsoft Sentinel to the Log Analytics Workspace, for its Security information and event management (SIEM) and Security orchestration, automation, and response (SOAR).  Please note further configuration of Sentinel is required to take advantage of threat detection, log retention and response capabilities."
                   }
                 },
                 {
