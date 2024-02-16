@@ -746,7 +746,7 @@
                   "name": "defenderSubscriptionDetailsText",
                   "type": "Microsoft.Common.TextBlock",
                   "options": {
-                    "text": "Mission Landing Zone can activate Microsoft Defender for Cloud for each subscription it is deployed into."
+                    "text": "Mission Landing Zone can enable Microsoft Defender for Cloud and workload protection plans, for its cloud security posture management and workload protection capabilities."
                   }
                 },
                 {
@@ -788,7 +788,7 @@
             },
             {
               "name": "sentinelSection",
-              "label": "Enable Azure Sentinel",
+              "label": "Enable Microsoft Sentinel",
               "type": "Microsoft.Common.Section",
               "elements": [
                 {
